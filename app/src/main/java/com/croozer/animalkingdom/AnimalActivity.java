@@ -26,7 +26,7 @@ public class AnimalActivity extends AppCompatActivity {
                 R.drawable.ant_eater, R.drawable.anteater_location_map));
         namesArrayList.add(new Names("Screaming Hairy Armadillo", "Chaetophractus Vellerosus",
                 R.drawable.screaming_hairy_armadillo, R.drawable.aardvark_location_map));
-        namesArrayList.add(new Names("Crab Eating Macaque", "Macaca Fascicularis",
+        namesArrayList.add(new Names("Crab Eating Macaque", "(Macaca Fascicularis)",
                 R.drawable.crab_eating_macaque, R.drawable.crab_eating_macaque_location_map));
         namesArrayList.add(new Names("Dingo", "Canis Lupus Dingo", R.drawable.dingo,
                 R.drawable.dingo_location_map));

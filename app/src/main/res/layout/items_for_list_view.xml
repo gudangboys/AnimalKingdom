@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
     <ImageView
         android:id="@+id/image_view_pic"
-        style="@style/image_pic"/>
+        style="@style/image_pic" />
 
 
     <LinearLayout
@@ -18,14 +17,26 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/text_view_common_name_title"
+            style="@style/text_view_names_title"
+            android:gravity="top"
+            android:text="@string/common_name_title" />
+
+        <TextView
             android:id="@+id/text_view_common_name"
             style="@style/text_view_names"
-            android:gravity="top"/>
+            android:gravity="top" />
+
+        <TextView
+            android:id="@+id/text_view_scientific_name_title"
+            style="@style/text_view_names_title"
+            android:gravity="top"
+            android:text="@string/scientific_name_title"/>
 
         <TextView
             android:id="@+id/text_view_scientific_name"
             style="@style/text_view_names"
-            android:gravity="top"/>
+            android:gravity="top" />
 
     </LinearLayout>
 
@@ -34,7 +45,6 @@
         style="@style/image_loc">
 
     </ImageView>
-
 
 
 </LinearLayout>

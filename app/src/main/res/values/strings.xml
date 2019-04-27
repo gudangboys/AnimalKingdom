@@ -3,6 +3,8 @@
 
         <string name="animal_text_view">Animals</string>
         <string name="bird_text_view">Birds</string>
+    <string name="common_name_title">Common Name</string>
+    <string name="scientific_name_title">Scientific Name</string>
 
     </resources>
 
