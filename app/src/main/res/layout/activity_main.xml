@@ -9,16 +9,14 @@
     android:orientation="vertical">
 
 
-
     <TextView
         android:id="@+id/text_view_animals"
+        style="@style/activity_main_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/animal_text_view"
-        style="@style/activity_main_text"
         android:background="@color/category_animals"
-
-        />
+        android:text="@string/animal_text_view"
+        app:fontFamily="@font/cairo_semibold" />
 
     <TextView
         android:id="@+id/text_view_birds"

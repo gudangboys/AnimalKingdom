@@ -4,9 +4,11 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
+
     <ImageView
         android:id="@+id/image_view_pic"
-        style="@style/image_pic" />
+        style="@style/image_pic"
+        android:background="@color/pic_background"/>
 
 
     <LinearLayout
@@ -14,29 +16,28 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/names_background">
 
         <TextView
             android:id="@+id/text_view_common_name_title"
             style="@style/text_view_names_title"
-            android:gravity="top"
             android:text="@string/common_name_title" />
 
         <TextView
             android:id="@+id/text_view_common_name"
             style="@style/text_view_names"
-            android:gravity="top" />
+            />
 
         <TextView
             android:id="@+id/text_view_scientific_name_title"
             style="@style/text_view_names_title"
-            android:gravity="top"
             android:text="@string/scientific_name_title"/>
 
         <TextView
             android:id="@+id/text_view_scientific_name"
             style="@style/text_view_names"
-            android:gravity="top" />
+            />
 
     </LinearLayout>
 

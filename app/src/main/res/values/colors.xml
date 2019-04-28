@@ -5,12 +5,20 @@
     <color name="colorAccent">#D81B60</color>
 
 
-    <color name="tan_background">#FFF7DA</color>
+
+
+
+
+
+    <color name="names_background">#FFEAD2</color>
+
+    <color name="pic_background">#FFEAD2</color>
 
     <color name="category_animals">#637081</color>
 
     <color name="category_birds">#3e8989</color>
 
     <color name="category_insects">#4cb963</color>
+
 
 </resources>
