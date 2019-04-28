@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="tan_background">#FFF7DA</color>
+
+    <color name="category_animals">#637081</color>
+
+    <color name="category_birds">#3e8989</color>
+
+    <color name="category_insects">#4cb963</color>
+
+</resources>

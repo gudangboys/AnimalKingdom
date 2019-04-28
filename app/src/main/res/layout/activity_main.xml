@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/text_view_animals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_text_view"
+        style="@style/activity_main_text"
+        android:background="@color/category_animals"
+        />
+
+    <TextView
+        android:id="@+id/text_view_birds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bird_text_view"
+        style="@style/activity_main_text"
+        android:background="@color/category_birds"/>
+
+
+
+
+</LinearLayout>

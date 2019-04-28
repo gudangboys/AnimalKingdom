@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Animal Kingdom</string>
+
+        <string name="animal_text_view">Animals</string>
+        <string name="bird_text_view">Birds</string>
+
+    </resources>
+
